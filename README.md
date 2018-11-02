@@ -1,6 +1,6 @@
 # RIPEMD-160
 
-> [RIPEMD-160](https://en.bitcoin.it/wiki/RIPEMD-160) example in C++
+> [RIPEMD-160](https://en.bitcoin.it/wiki/RIPEMD-160) hashing example in C++
 
 ## Example
 
@@ -44,6 +44,6 @@ int main() {
 }
 ```
 
-## LICENSE
+## License
 
 MIT

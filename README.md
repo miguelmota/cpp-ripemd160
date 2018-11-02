@@ -15,7 +15,7 @@ Convert ascii string to RIPEMD-160 hash hex string
 std::string uint8_to_hex_string(const uint8_t *v, const size_t s) {
   std::stringstream ss;
 
-  for (int i = 0; i < 20; i++) {
+  for (int i = 0; i < s; i++) {
     ss << std::hex << static_cast<int>(v[i]);
   }
 
